@@ -17,7 +17,7 @@ const App = () => {
       </div>
       <div>
         <BrowserRouter>
-          <ul className="flex justify-center space-x-4">
+          <ul className="flex justify-center space-x-4 mb-4">
             <li>
               <Link to="/html" className="text-blue-600 hover:underline">
                 HTML
@@ -31,6 +31,14 @@ const App = () => {
             <li>
               <Link to="/css" className="text-blue-600 hover:underline">
                 CSS
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/"
+                className="text-blue-600 hover:bg-blue-700 hover:text-white border p-2 rounded-md"
+              >
+                Restart
               </Link>
             </li>
           </ul>
