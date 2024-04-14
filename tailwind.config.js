@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      smm: "525px",
+    },
     extend: {},
+    fontFamily: {
+      abc: ["Poppins", "sans - serif"],
+    },
   },
   plugins: [],
 };

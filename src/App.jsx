@@ -7,6 +7,8 @@ import JsQues from "./components/JsQues";
 import CssQues from "./components/CssQues";
 import IntroPage from "./components/Intro";
 import Navbar from "./components/Navbar";
+import ReactQues from "./components/ReactQues";
+import Answer from "./components/Answer";
 
 <IntroPage />;
 
@@ -21,6 +23,8 @@ const App = () => {
           <Route path="/html" element={<HtmlQues />} />
           <Route path="/js" element={<JsQues />} />
           <Route path="/css" element={<CssQues />} />
+          <Route path="/react" element={<ReactQues />} />
+          <Route path="/answer" element={<Answer />} />
         </Routes>
       </BrowserRouter>
     </div>
